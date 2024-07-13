@@ -159,7 +159,7 @@ global.loadDatabase = async function loadDatabase() {
 }
 loadDatabase()
 
-global.authFolder = storeSys.fixFileName(`${opts._[0] || ''}system/sessions`)
+global.authFolder = storeSys.fixFileName(`${opts._[0] || ''}sessions`)
 let {
     state,
     saveCreds
